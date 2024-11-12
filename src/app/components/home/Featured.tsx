@@ -42,9 +42,9 @@ const featuredData: FeaturedItem[] = [
 
 const FeaturedCards = () => {
   return (
-    <div className="px-4 sm:px-8 md:px-10 lg:px-20 py-48 bg-[#4a5052]">
+    <div className="px-0 sm:px-8 md:px-10 lg:px-20 py-20 sm:py-48 bg-[#4a5052]">
 
-      <div className="flex flex-col xl:flex-row bg-[#fefeff] px-3 lg:px-6 py-6 rounded-lg">
+      <div className="flex flex-col xl:flex-row bg-[#fefeff] px-3 lg:px-6 py-6 sm:rounded-lg">
 
         {/* contant */}
         <div className="w-full xl:w-1/2 text-black py-10">

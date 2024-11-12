@@ -15,7 +15,7 @@ const SideBar = ({ closeState }: SideBarProp) => {
 
     return (
         <>
-            <div className='bg-white z-30 h-screen'>
+            <div className='bg-white relative z-20 h-screen'>
                 <div className='flex justify-between mb-5 lg:hidden py-2 px-4'>
                     <div className="text-orange-400 text-2xl font-bold">
                         <Link href="/">North Rays</Link>
