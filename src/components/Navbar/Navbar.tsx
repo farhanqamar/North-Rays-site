@@ -43,7 +43,7 @@ const Navbar = () => {
                                     <NavbarDropdown imgBoxHeading="Home" route="/" />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
-                                    <NavbarDropdown imgBoxHeading="Academy" route="/academy" />
+                                    <NavbarDropdown imgBoxHeading="Academy" route="" />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
                                     <NavbarDropdown imgBoxHeading="Blog" route="/blog" />

@@ -34,7 +34,7 @@ export default function Home() {
       <Services />
       <Technology />
       <Featured />
-<Reviews/>
+      <Reviews/>
       {/* <Lontacts /> */}
       {/* <Footer /> */}
     </>
