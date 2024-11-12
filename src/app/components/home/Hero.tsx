@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="h-screen absolute top-0 w-full z-20">
           <div></div>
           <div>
-            <div className="flex items-center px-3 sm:pl-10 lg:pl-48 h-[92.5vh]">
+            <div className="flex items-end px-3 sm:pl-10 lg:pl-48 h-[92.5vh]">
               <div className="md:w-[720px] text-white">
                 <h1 className="font-bold">
                   Empowering Businesses in the Digital Age
@@ -30,8 +30,8 @@ const Hero = () => {
                     A dynamic technology solutions and marketing firm dedicated
                     to helping businesses thrive in the digital age.
                   </p>
-                  <button className="bg-white text-black hover:bg-[#FA8500] hover:text-white 
-                  transition-colors duration-300 ease-in-out text-[18px] font-medium rounded-[40px] px-4 py-[2px] my-10">
+                  <button className="bg-white text-black hover:bg-[#023047] hover:text-white 
+                   text-[18px] font-medium rounded-[40px] px-4 py-[2px] my-10 transition-colors duration-300 ease-in-out">
                     Get In Touch
                   </button>
                 </div>

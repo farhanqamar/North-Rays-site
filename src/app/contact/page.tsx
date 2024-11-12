@@ -118,7 +118,7 @@ const Page = () => {
                     className="textinput w-full  bg-transparent text-[18px] py-5 px-[22px] border border-white rounded mb-4"
                     placeholder="Type message here"
                   />
-                  <button className="submit-btn w-full h-[56px] bg-white text-black hover:bg-black hover:text-white border border-[#767676] font-semibold text-[18px] rounded">
+                  <button className="submit-btn w-full h-[56px] bg-white text-black hover:bg-[#023047] hover:text-white border border-[#767676] font-semibold text-[18px] rounded transition-colors duration-300 ease-in-out">
                     Get quote
                   </button>
                 </div>

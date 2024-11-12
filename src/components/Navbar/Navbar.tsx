@@ -22,9 +22,9 @@ const Navbar = () => {
                 <div className="absolute inset-0 bg-black opacity-40 pointer-events-none"></div>
 
                 {/* Navbar content wrapper */}
-                <div className="relative z-10 lg:flex justify-between items-center h-16 lg:w-[1450px] mx-auto">
+                <div className="relative z-10 lg:flex justify-between items-center h-16 lg:w-[1510px] mx-auto">
                     {/* Logo and Hamburger Menu */}
-                    <div className='flex gap-8'>
+                    <div className='flex lg:gap-20'>
                         <div className="flex justify-between items-center w-full">
                             <div className="text-white font-bold">
                                 <Link href="/" className="text-xl lg:text-2xl">
@@ -43,19 +43,19 @@ const Navbar = () => {
                                     <NavbarDropdown imgBoxHeading="Home" route="/" />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
-                                    <NavbarDropdown imgBoxHeading="Academy" route="" />
+                                    <NavbarDropdown imgBoxHeading="Services" route="/service" />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
                                     <NavbarDropdown imgBoxHeading="Blog" route="/blog" />
+                                </li>
+                                <li className="relative mb-4 md:mb-0 group w-fit">
+                                    <NavbarDropdown imgBoxHeading="Academy" route="" />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
                                     <NavbarDropdown imgBoxHeading="Reviews" />
                                 </li>
                                 <li className="relative mb-4 md:mb-0 group w-fit">
                                     <NavbarDropdown imgBoxHeading="Contact" route="/contact" />
-                                </li>
-                                <li className="relative mb-4 md:mb-0 group w-fit">
-                                    <NavbarDropdown imgBoxHeading="Services" route="/service" />
                                 </li>
                                 <li className="mb-4 md:mb-0 block md:hidden">
                                     <button className="bg-[#FA8500] text-white hover:text-[#023047] py-2 px-4 rounded-md">
@@ -68,7 +68,7 @@ const Navbar = () => {
 
                     {/* Button at the end of the navbar */}
                     <div className="hidden lg:block">
-                        <button className="bg-white text-black hover:bg-[#FA8500] hover:text-white py-2 px-4 rounded-md transition-colors duration-300 ease-in-out flex gap-4">
+                        <button className="bg-white text-black hover:bg-[#023047] hover:text-white py-2 px-4 rounded-md transition-colors duration-300 ease-in-out flex gap-4">
                             <span>Lets Talk</span>
                             <span className="relative top-1"><BsArrowUpRight /></span>
                         </button>

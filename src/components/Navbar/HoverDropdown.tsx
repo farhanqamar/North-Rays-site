@@ -33,7 +33,7 @@ const NavbarDropdown = ({ imgBoxHeading, route }: imgBoxHeadingProps) => {
         <button
           onMouseEnter={() => setIsOpen(true)}
           onMouseLeave={() => setIsOpen(false)}
-          className="inline-flex justify-center w-full px-2 lg:px-4 py-2 text-lg text-white hover:text-[#FA8500]"
+          className="inline-flex justify-center w-full px-1 lg:px-2 py-1 text-lg text-white hover:text-[#FA8500]"
         >
           {imgBoxHeading}
         </button>

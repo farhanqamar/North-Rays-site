@@ -57,6 +57,8 @@ const Page = () => {
       btn: "Read More...",
     },
   ];
+
+  
   return (
     <>
       <div
@@ -81,13 +83,13 @@ const Page = () => {
         <div className="grid grid-cols-2 gap-6">
           {arrayImg.map((item, index) => (
             <div key={index} className="flex flex-col border rounded-md">
-         <Image
-  src={item.img}
-  alt="blog"
-  width={100}  // Set the desired width here
-  height={100} // Set the desired height here
-  className="object-cover rounded-md w-[550px] h-[300px]"
-/>
+              <Image
+                src={item.img}
+                alt="blog"
+                width={100}  // Set the desired width here
+                height={100} // Set the desired height here
+                className="object-cover rounded-md w-[550px] h-[300px]"
+              />
 
               <div className="p-5">
                 <p className="mt-2 text-md">{item.p}</p>
@@ -133,55 +135,55 @@ const Page = () => {
           }}
         >
           <div className="md:w-4/5 m-auto text-black ">
-          <div className="w-3/5">
+            <div className="w-3/5">
 
-            <h4 className="text-black font-medium py-10">
-              Have Any Question ? Write a Message
-            </h4>
-            <div>
-              <div className="flex">
-                <div className="w-full md:w-1/2">
-                  <input
-                    className="bg-transparent border-b border-black py-[10px] w-full"
-                    type="text"
-                    placeholder="Name"
-                  />
+              <h4 className="text-black font-medium py-10">
+                Have Any Question ? Write a Message
+              </h4>
+              <div>
+                <div className="flex">
+                  <div className="w-full md:w-1/2">
+                    <input
+                      className="bg-transparent border-b border-black py-[10px] w-full"
+                      type="text"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div className="w-full md:w-1/2 mx-5">
+                    <input
+                      className="bg-transparent border-b border-black py-[10px] w-full"
+                      type="text"
+                      placeholder="Email"
+                    />
+                  </div>
                 </div>
-                <div className="w-full md:w-1/2 mx-5">
+                <div className="flex pt-5">
+                  <div className="w-full md:w-1/2">
+                    <input
+                      className="bg-transparent border-b border-black py-[10px] w-full"
+                      type="text"
+                      placeholder="Phone"
+                    />
+                  </div>
+                  <div className="w-full md:w-1/2  mx-5">
+                    <input
+                      className="bg-transparent border-b border-black py-[10px] w-full"
+                      type="text"
+                      placeholder="Subject"
+                    />
+                  </div>
+                </div>
+                <div className="w-full pt-5">
                   <input
-                    className="bg-transparent border-b border-black py-[10px] w-full"
+                    className="bg-transparent border-b border-black pb-[60px] w-full"
                     type="text"
-                    placeholder="Email"
+                    placeholder="Message"
                   />
                 </div>
               </div>
-              <div className="flex pt-5">
-                <div className="w-full md:w-1/2">
-                  <input
-                    className="bg-transparent border-b border-black py-[10px] w-full"
-                    type="text"
-                    placeholder="Phone"
-                  />
-                </div>
-                <div className="w-full md:w-1/2  mx-5">
-                  <input
-                    className="bg-transparent border-b border-black py-[10px] w-full"
-                    type="text"
-                    placeholder="Subject"
-                  />
-                </div>
-              </div>
-              <div className="w-full pt-5">
-                <input
-                  className="bg-transparent border-b border-black pb-[60px] w-full"
-                  type="text"
-                  placeholder="Message"
-                />
-              </div>
+              <button className="bg-black text-white p-3 rounded-3xl mt-5">Send Message</button>
             </div>
-            <button className="bg-black text-white p-3 rounded-3xl mt-5">Send Message</button>
-          </div>
-        </div></div>
+          </div></div>
       </section>
       <section>
       </section>

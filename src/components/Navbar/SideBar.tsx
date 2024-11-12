@@ -32,14 +32,16 @@ const SideBar = ({ closeState }: SideBarProp) => {
                                     <span>Home</span>
                                     <span className='relatve top-2'> <MdArrowForwardIos /> </span>
                                 </li>
-                                <Link href={`/academy`}><li className="relative mb-4 md:mb-0 group flex justify-between font-medium text-xl border-b">
+                                <Link href={``}><li className="relative mb-4 md:mb-0 group flex justify-between font-medium text-xl border-b">
                                     <span>Acadmy</span>
                                     <span className='relatve top-2'> <MdArrowForwardIos /> </span>
                                 </li>
                                 </Link>
+                                <Link href={`/blog`}>
                                 <li className="relative mb-4 md:mb-0 group font-medium text-xl border-b">
                                     Blog
                                 </li>
+                                </Link>
                                 <li className="relative mb-4 md:mb-0 group font-medium text-xl border-b">
                                     Reviews
                                 </li>
